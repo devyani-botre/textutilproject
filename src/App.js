@@ -25,11 +25,13 @@ function App() {
       document.body.style.backgroundColor = '#343a40';
       document.body.style.color = 'white';
       showAlert("Dark Mode has been Enabled", "success");
+      document.title='TextUtils - Dark Mode';
     } else {
       setMode('light');
       document.body.style.backgroundColor = 'white';
       document.body.style.color = 'black';
       showAlert("Light Mode has been Disabled", "success");
+      document.title='TextUtils - Light Mode';
     }
   };
 
